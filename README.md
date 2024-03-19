@@ -11,6 +11,6 @@ Feel free to reach out if you have any questions, suggestions, or just want to c
 
 ## Current Deployed Link
 
-The most recent version of the portfolio can be found [here](https://tech-explorer-riyaaa.github.io//).
+The most recent version of the portfolio can be found [here](https://tech-explorer-riyaaa.github.io/Riya-Ahlawat-Developer-Portfolio/).
 
 Happy coding! 👩‍💻👨‍💻
