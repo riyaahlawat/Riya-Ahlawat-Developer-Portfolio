@@ -301,6 +301,12 @@ main hr {
   }
 }
 
+@media (max-width: 572px) {
+  .sections .sec-right img {
+    width: 50vw;
+  }
+}
+
 h1 {
   font-size: 1.9rem;
   color: #356fa1;
@@ -327,6 +333,10 @@ h1 {
   gap: 1rem;
   border-radius: 20px;
   border: 1px solid rgb(154, 31, 31);
+}
+
+.grid-container div {
+  text-align: center;
 }
 
 .grid-container div img{
