@@ -167,7 +167,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   /* align-items: stretch; */
-  margin: 60px 0;
+  margin-top: 8rem;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   align-content: center;
@@ -181,8 +181,15 @@ body {
 
 .rightSection img{
   height: 300px;
+  border: 1px solid blueviolet;
+  border-radius: 20px;
 }
 
+@media (max-width: 390px) {
+  .rightSection img {
+    height: 250px;
+  }
+}
 
 .leftSection .btn {
   padding: 12px;
@@ -319,11 +326,13 @@ h1 {
   align-items: center;
   gap: 1rem;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid rgb(154, 31, 31);
 }
 
 .grid-container div img{
   height: 200;
+  border-radius: 20px;
+  border: 1px solid blueviolet;
 }
 
 @media (max-width: 951px) {
@@ -363,6 +372,11 @@ h1 {
   position: relative;
   transition: transform 0.5s;
   user-select: none;
+}
+
+.card img {
+  border: 1px solid rgb(88, 7, 7);
+  border-radius: 20px;
 }
 
 .card::before {
@@ -492,6 +506,8 @@ h1 {
 .participations .participations-container .template img {
   height: 200px;
   margin-bottom: 10px;
+  border: 1px solid rgb(88, 7, 7);
+  border-radius: 20px;
 }
 
 .template a {
