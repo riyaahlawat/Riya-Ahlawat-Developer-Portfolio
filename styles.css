@@ -336,7 +336,8 @@ h1 {
   gap: 1rem;
   border-radius: 60px;
   /* border: 1px solid rgb(154, 31, 31); */
-  background-color: #f5dada;
+  /* background-color: #f5dada; */
+  border: 1px solid #6A1B9A;
 }
 
 .grid-container div {
