@@ -534,6 +534,7 @@ footer {
   background-color: #bdbdff;
   height: auto;
   padding: 0 5rem;
+  margin-right: 0px;
 }
 
 .footer {
@@ -572,13 +573,13 @@ footer .footer-rights {
 }
 
 .footer-second ul{
-  color: rgb(18, 0, 0);
+  color: rgb(69, 8, 8);
   /* width: auto; */
   font-weight: 500;
 }
 
 .footer-second li a {
-  color: rgb(8, 144, 99);
+  color: rgb(22, 107, 79);
 }
 
 @media (max-width: 762px) {
