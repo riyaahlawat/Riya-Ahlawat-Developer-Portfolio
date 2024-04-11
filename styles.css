@@ -503,11 +503,11 @@ h1 {
   flex-direction: column;
   font-size: 1rem;
   background-color: rgb(255 231 246);
-  border: 1px solid red;
+  border: 1px solid rgb(134, 19, 19);
   border-radius: 20px;
   padding: 20px;
   margin-top: 30px;
-  color: rgb(163, 18, 18);
+  color: rgb(133, 10, 10);
   box-shadow: 0 20px 30px rgba(189, 37, 37, 0.2),
     0 -10px 20px rgba(230, 200, 200, 0.4);
 }
@@ -521,7 +521,7 @@ h1 {
 .participations .participations-container .template img {
   height: 200px;
   margin-bottom: 10px;
-  border: 1px solid rgb(88, 7, 7);
+  /* border: 1px solid rgb(88, 7, 7); */
   border-radius: 20px;
 }
 
