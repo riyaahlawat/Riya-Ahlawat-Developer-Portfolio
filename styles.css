@@ -390,7 +390,7 @@ h1 {
 }
 
 .card img {
-  border: 1px solid rgb(88, 7, 7);
+  /* border: 1px solid rgb(88, 7, 7); */
   border-radius: 20px;
 }
 
