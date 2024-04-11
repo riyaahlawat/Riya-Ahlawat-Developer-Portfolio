@@ -537,6 +537,7 @@ footer {
 }
 
 .footer {
+  /* width: 100vw; */
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -572,7 +573,7 @@ footer .footer-rights {
 
 .footer-second ul{
   color: rgb(18, 0, 0);
-  width: auto;
+  /* width: auto; */
   font-weight: 500;
 }
 
