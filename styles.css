@@ -13,6 +13,7 @@ body {
   background-color: rgb(255 231 246);
   color: black;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .snowflake {
