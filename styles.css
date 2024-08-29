@@ -8,6 +8,10 @@
   /* box-sizing: border-box; */
   cursor: pointer;
   /* overflow-x: hidden; */
+  /* overflow-x: hidden; */
+}
+
+body {
   overflow-x: hidden;
 }
 
@@ -400,11 +404,14 @@ h1 {
   position: relative;
   transition: transform 0.5s;
   user-select: none;
+  /* overflow-y: hidden; */
 }
 
 .card img {
   /* border: 1px solid rgb(88, 7, 7); */
   border-radius: 20px;
+  /* object-fit: cover; */
+  /* overflow-y: hidden; */
 }
 
 .card::before {
@@ -479,13 +486,13 @@ h1 {
   color: darkslategrey;
 }
 
-/* hover effects */
+hover effects 
 .card:hover::before,
 .card:hover::after {
   opacity: 1;
-}
-
-/* .card:nth-child(1):hover {
+} 
+/*
+ .card:nth-child(1):hover {
   transform: perspective(600px) rotateY(10deg) rotateX(10deg);
 }
 
@@ -503,7 +510,7 @@ h1 {
 
 .card:nth-child(3):hover {
   transform: perspective(600px) rotateY(-10deg) rotateX(10deg);
-} */
+}*/
 
 .participations {
   padding: 0 5rem;
