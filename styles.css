@@ -7,6 +7,7 @@
   font-family: "Poppins", sans-serif;
   /* box-sizing: border-box; */
   cursor: pointer;
+  overflow-x: hidden;
 }
 
 body {
@@ -349,7 +350,9 @@ h1 {
 }
 
 .grid-container div img{
-  height: 200;
+  height: auto;
+  width: 70%;
+  object-fit: contain;
   border-radius: 20px;
   /* border: 1px solid blueviolet; */
 }
@@ -511,7 +514,7 @@ h1 {
 }
 
 .template {
-  width: 30%;
+  min-width: 30%;
   text-align: center;
   display: flex;
   flex-direction: column;
