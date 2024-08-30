@@ -305,6 +305,7 @@ main hr {
 
   .sections .sec-left {
     margin-left: 0;
+    width: 90%;
   }
   .sections .sec-right{
     display: flex;
